@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(./nasa-1lfI7wkGWZ4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    color: #cfff00;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+input {
+    width: 140px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+#valor_reais {
+    color: aliceblue;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+p {
+    font-weight: bold;
+    font-size: 25px;
+}
+button {
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 3px solid #cfff00;
+    border-radius: 10px;
+    background-color: #323232;
+    color: white;
+}
+
+button:hover {
+    color: #323232;
+    background-color: #cfff00;
+}
