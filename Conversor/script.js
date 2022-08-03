@@ -4,5 +4,5 @@ function converter() {
 
     let resultado = gramas_ouro * 298.69;
 
-    valor_reais.innerText = `R$= ${resultado}`;
+    valor_reais.innerText = resultado.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
 };

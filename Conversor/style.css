@@ -4,7 +4,8 @@
     padding: 0;
 }
 body {
-    background-image: url(./nasa-1lfI7wkGWZ4-unsplash.jpg);
+    /*background-image: url(./nasa-1lfI7wkGWZ4-unsplash.jpg);*/
+    background-color: #323232;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
