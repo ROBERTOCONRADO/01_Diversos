@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversor</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
 </head>
 <body>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
@@ -13,7 +14,8 @@
 
     <h1>Conversor de ouro em reais</h1>
     <div>
-        <input id="gramas_ouro" type="number" placeholder="Gramas de Ouro">
+        <span class="iconify" data-icon="mdi:gold" style="color: #ffbd1b;" data-width="30" data-height="30"></span>
+        <input id="gramas_ouro" type="text" placeholder="Gramas de Ouro">
     </div>
     <p id="valor_reais"></p>
     <button onclick="converter()">Converter</button>

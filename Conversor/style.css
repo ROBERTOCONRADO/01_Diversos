@@ -4,7 +4,7 @@
     padding: 0;
 }
 body {
-    /*background-image: url(./nasa-1lfI7wkGWZ4-unsplash.jpg);*/
+    background-image: url(./nasa-1lfI7wkGWZ4-unsplash.jpg);
     background-color: #323232;
     background-repeat: no-repeat;
     background-position: center;
@@ -22,14 +22,23 @@ h1 {
     margin-bottom: 10px;
 }
 input {
-    width: 140px;
-    height: 30px;
-    margin-bottom: 20px;
+    border: 3px solid #d0ff00af;
+    width: 160px;
+    height: 50px;
+    padding: 15px;
+    margin-right: 31px;
+    background-color: rgba(240, 248, 255, 0.842);
+}
+.iconify {
+    position: relative;
+    z-index: 2;
+    left: 150px;
+    bottom: 2px;
 }
 #valor_reais {
     color: aliceblue;
-    margin-bottom: 20px;
     box-sizing: border-box;
+    margin-top: 10px;
 }
 p {
     font-weight: bold;
@@ -40,10 +49,11 @@ button {
     width: 150px;
     font-size: 20px;
     cursor: pointer;
-    border: 3px solid #cfff00;
+    border: 3px solid #d0ff00af;
     border-radius: 10px;
     background-color: #323232;
     color: white;
+    margin-top: 10PX;
 }
 
 button:hover {
