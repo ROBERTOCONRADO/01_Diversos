@@ -28,6 +28,7 @@ input {
     padding: 15px;
     margin-right: 31px;
     background-color: rgba(240, 248, 255, 0.842);
+    border-radius: 2px;
 }
 .iconify {
     position: relative;
@@ -36,9 +37,11 @@ input {
     bottom: 2px;
 }
 #valor_reais {
-    color: aliceblue;
+    color: OrangeRed;
     box-sizing: border-box;
     margin-top: 10px;
+    text-shadow: 2px -2px black;
+    
 }
 p {
     font-weight: bold;

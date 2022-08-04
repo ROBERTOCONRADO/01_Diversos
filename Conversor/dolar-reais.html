@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <style>
+        .animate_dolar {
+            transform: rotate(180deg);
+            background-color: #ffbe1b46;
+            border-radius: 2px;
+        }
+        #dolar {
+            font-size: 20px;
+        }
+        .iconify {
+            top: 1px;
+        }
+        .dollar {
+        margin-right: 20px;
+        display: inline-block;
+        
+        }
+        .euro {
+        margin-right: 300px;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <lottie-player class="animate_dolar"src="https://assets5.lottiefiles.com/packages/lf20_5mAJXx.json"  background="transparent"  speed="2"  style="width: 400px; height: 400px; margin: auto;"  loop  autoplay></lottie-player>
+
+    <h1>Conversor de dólar em reais</h1>
+    <a href="index.html"><span class="iconify" data-icon="ant-design:gold-filled" style="color: gold;" data-width="42" data-height="42"></span></a>
+    <a href="euro-reais.html"><span class="iconify dollar euro" data-icon="emojione-v1:euro-banknote" data-width="41" data-height="41"></span></a>
+    <div>
+        <span class="iconify" data-icon="noto:dollar-banknote" data-width="24" data-height="24"></span>
+        <input id="dolar" type="text" placeholder="Dólar">
+    </div>
+    <p id="valor_reais"></p>
+    <button onclick="converter()">Converter</button>
+    <script src="script-dolar.js"></script>
+</body>
+</html>
+
